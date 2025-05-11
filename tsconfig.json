@@ -9,7 +9,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "jsx": "react-jsx",
+    "jsx": "react-jsx",                   // Important for JSX transform
     "module": "ESNext",
     "target": "ESNext",
     "moduleResolution": "Node",
