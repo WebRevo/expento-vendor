@@ -9,11 +9,16 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowJs": true,
     "noImplicitAny": false,
     "noUnusedParameters": false,
-    "skipLibCheck": true,
-    "allowJs": true,
     "noUnusedLocals": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "skipLibCheck": true
   }
 }
